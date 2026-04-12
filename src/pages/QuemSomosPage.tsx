@@ -21,7 +21,7 @@ const INTEGRANTES = [
     photoSrc: './img/Vitor.jpg',
     photoAlt: 'Foto de Vitor Godoi',
     githubUrl: 'https://github.com/VitorGodoi12',
-    linkedinUrl: 'https://www.linkedin.com/in/vitor-godoi-189b91380',
+    linkedinUrl: 'https://www.linkedin.com/in/vitor-costa-de-godoi-189b91380',
   },
   {
     name: 'Vitor Santos Domingues',

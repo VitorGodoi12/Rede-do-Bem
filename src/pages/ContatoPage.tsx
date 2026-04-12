@@ -38,7 +38,7 @@ const CONTACT_CHANNELS = [
 
 const FORM_FIELDS = [
   { id: 'nome',     label: 'Nome',      type: 'text'     as const, placeholder: 'Seu nome completo' },
-  { id: 'email',    label: 'E-mail',    type: 'email'    as const, placeholder: 'seuemail@exemplo.com' },
+  { id: 'email',    label: 'E-mail',    type: 'email'    as const, placeholder: 'seuemail@gmail.com' },
   { id: 'mensagem', label: 'Mensagem',  type: 'textarea' as const, placeholder: 'Escreva sua mensagem aqui...' },
 ]
 
