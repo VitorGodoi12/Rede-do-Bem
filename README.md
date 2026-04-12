@@ -1,73 +1,34 @@
-# React + TypeScript + Vite
+# Rede do Bem - Gestão de Atendimento Odontológico Voluntário
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Descrição do Projeto
+O **Rede do Bem** é uma plataforma digital desenvolvida para a ONG **Turma do Bem**, com o objetivo de otimizar a gestão de atendimentos odontológicos gratuitos para jovens e mulheres em situação de vulnerabilidade. O sistema facilita a triagem de pacientes, a localização de dentistas voluntários e o acompanhamento dos tratamentos, garantindo eficiência e segurança de dados.
 
-Currently, two official plugins are available:
+## Link do Repositório GitHub
+[https://github.com/VitorGodoi12/Projeto-Sprint03.git](https://github.com/VitorGodoi12/Projeto-Sprint03.git)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Integrantes do Grupo
+- **Felipe Cuesta Puerta de Oliveira** (RM: 567703) - Turma: 1TDSPX
+- **Vitor Costa de Godoi** (RM: 568448) - Turma: 1TDSPX
+- **Vitor Santos Domingues** (RM: 568375) - Turma: 1TDSPX
 
-## React Compiler
+## Tecnologias Utilizadas
+- **React 19**
+- **TypeScript**
+- **Vite**
+- **Tailwind CSS**
+- **React Router Dom**
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Instruções de Execução
+1. Clone o repositório.
+2. Instale as dependências: `npm install` ou `pnpm install`.
+3. Inicie o servidor de desenvolvimento: `npm run dev` ou `pnpm dev`.
+4. Para gerar a build de produção: `npm run build`.
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
-
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## Estrutura de Páginas
+- **Home**: Visão geral do projeto e impacto.
+- **Quem Somos**: Informações sobre os desenvolvedores.
+- **Sobre**: Detalhes técnicos e pilares do projeto.
+- **Programas**: Descrição das iniciativas (Dentista do Bem e Apolônias do Bem).
+- **Solução**: Detalhamento da plataforma tecnológica.
+- **FAQ**: Perguntas frequentes.
+- **Contato**: Canais de comunicação e formulário.
