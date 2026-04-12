@@ -6,10 +6,13 @@ O **Rede do Bem** é uma plataforma digital desenvolvida para a ONG **Turma do B
 ## Link do Repositório GitHub
 [https://github.com/VitorGodoi12/Projeto-Sprint03.git](https://github.com/VitorGodoi12/Projeto-Sprint03.git)
 
+## Link para o Video no Youtube
+[https://youtu.be/K0IcljaiXqQ](https://youtu.be/K0IcljaiXqQ)
+
 ## Integrantes do Grupo
-- **Felipe Cuesta Puerta de Oliveira** (RM: 567703) - Turma: 1TDSPX
-- **Vitor Costa de Godoi** (RM: 568448) - Turma: 1TDSPX
-- **Vitor Santos Domingues** (RM: 568375) - Turma: 1TDSPX
+- **Felipe Cuesta Puerta de Oliveira** (RM: 567703) - Turma: 1TDSPR
+- **Vitor Costa de Godoi** (RM: 568448) - Turma: 1TDSPR
+- **Vitor Santos Domingues** (RM: 568375) - Turma: 1TDSPR
 
 ## Tecnologias Utilizadas
 - **React 19**

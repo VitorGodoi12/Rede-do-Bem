@@ -11,9 +11,9 @@ const CONTACT_CHANNELS = [
     sectionLabel: 'E-mails',
     sectionIcon: <Icons.Email size={20} />,
     links: [
-      { label: 'felipecuesta@exemplo.com',  href: 'mailto:felipecuesta@exemplo.com' },
-      { label: 'vitorgodoi@exemplo.com',    href: 'mailto:vitorgodoi@exemplo.com' },
-      { label: 'vitorsantos@exemplo.com',   href: 'mailto:vitorsantos@exemplo.com' },
+      { label: 'felipecuesta@exemplo.com',  href: 'mailto:felipecuesta@gmail.com' },
+      { label: 'vitorgodoi@exemplo.com',    href: 'mailto:vitorgodoi@gmail.com' },
+      { label: 'vitorsantos@exemplo.com',   href: 'mailto:vitorsantos@gmail.com' },
     ],
   },
   {

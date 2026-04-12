@@ -8,7 +8,7 @@ const INTEGRANTES = [
   {
     name: 'Felipe Cuesta Puerta de Oliveira',
     rm: 'RM: 567703',
-    turma: '1TDSPX',
+    turma: '1TDSPR',
     photoSrc: './img/Felipe Cuesta.jpg',
     photoAlt: 'Foto de Felipe Cuesta',
     githubUrl: 'https://github.com/felipecuesta06',
@@ -17,7 +17,7 @@ const INTEGRANTES = [
   {
     name: 'Vitor Costa de Godoi',
     rm: 'RM: 568448',
-    turma: '1TDSPX',
+    turma: '1TDSPR',
     photoSrc: './img/Vitor.jpg',
     photoAlt: 'Foto de Vitor Godoi',
     githubUrl: 'https://github.com/VitorGodoi12',
@@ -26,7 +26,7 @@ const INTEGRANTES = [
   {
     name: 'Vitor Santos Domingues',
     rm: 'RM: 568375',
-    turma: '1TDSPX',
+    turma: '1TDSPR',
     photoSrc: './img/Vitor Santos.jpg',
     photoAlt: 'Foto de Vitor Santos',
     githubUrl: 'https://github.com/VitorSantosDomingues',
