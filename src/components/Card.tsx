@@ -17,7 +17,7 @@ type CardSobreProps = {
   description: string
 }
 
-type CardIntegranteProps = {
+interface CardIntegranteProps {
   variant: 'integrante'
   name: string
   rm: string
@@ -28,16 +28,17 @@ type CardIntegranteProps = {
   photoAlt?: string
 }
 
-type CardProgramaProps = {
+interface CardProgramaProps {
   variant: 'programa'
   icon: React.ReactNode
   tag: string
   title: string
   description: string
+  slug?: string
   accentColor?: 'green' | 'sand'
 }
 
-type CardFundamentacaoProps = {
+interface CardFundamentacaoProps {
   variant: 'fundamentacao'
   title: string
   description: string

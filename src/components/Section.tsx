@@ -2,16 +2,21 @@ import React from 'react'
 
 type SectionBackground = 'white' | 'light' | 'sand' | 'dark-green' | 'accent-soft'
 
-type SectionProps = {
+type SectionLayoutProps = {
   id?: string
-  title?: string
-  titleColor?: string
   background?: SectionBackground
   centered?: boolean
-  children: React.ReactNode
   className?: string
   innerMaxWidth?: boolean
 }
+
+type SectionContentProps = {
+  title?: string
+  titleColor?: string
+  children: React.ReactNode
+}
+
+interface SectionProps extends SectionLayoutProps, SectionContentProps {}
 
 const bgMap: Record<SectionBackground, string> = {
   white: 'bg-white',

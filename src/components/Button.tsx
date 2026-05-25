@@ -3,15 +3,19 @@ import { Link } from 'react-router-dom'
 
 type ButtonVariant = 'primary' | 'secondary' | 'submit'
 
-type ButtonProps = {
+
+type BaseElementProps = {
+  className?: string
+  onClick?: () => void
+}
+
+interface ButtonProps extends BaseElementProps {
   label: string
   href?: string
   variant?: ButtonVariant
   icon?: React.ReactNode
-  onClick?: () => void
   type?: 'button' | 'submit' | 'reset'
   fullWidth?: boolean
-  className?: string
 }
 
 const isExternal = (href: string) =>

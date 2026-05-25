@@ -1,14 +1,14 @@
 import React, { useState } from 'react'
 import { Icons } from './Icons'
 
-type FormField = {
+interface FormField {
   id: string
   label: string
   type: 'text' | 'email' | 'textarea'
   placeholder: string
 }
 
-type ContactFormProps = {
+interface ContactFormProps {
   title: string
   fields: FormField[]
   submitLabel: string

@@ -1,17 +1,17 @@
 import React from 'react'
 
-type ContactLink = {
+interface ContactLink {
   label: string
   href: string
 }
 
-type ContactChannel = {
+interface ContactChannel {
   sectionLabel: string
   sectionIcon: React.ReactNode
   links: ContactLink[]
 }
 
-type ContactInfoProps = {
+interface ContactInfoProps {
   title: string
   channels: ContactChannel[]
 }
