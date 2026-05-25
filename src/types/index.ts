@@ -1,6 +1,3 @@
-// ============================================================
-// Tipos TypeScript espelhando exatamente as entidades Java
-// ============================================================
 
 export interface Contato {
   id?: number
